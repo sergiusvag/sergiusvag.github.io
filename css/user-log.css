@@ -1,0 +1,72 @@
+.login,
+.register{
+    display: flex;
+    align-items: center;
+	min-height: 100vh;   
+}
+.btn_register,
+.btn_join,
+.btn_create  {
+    width: fit-content;
+    padding: 11px;
+}
+.btn_join,
+.btn_create {
+    font-size: 20px;
+    margin: 0;
+    border-radius: 0 25px 25px 0;
+}
+.btn_create {
+    border-radius: 25px 0 0 25px;
+}
+.form-control_room-id {
+    padding-bottom: 10px;
+    background-color: rgba(0,0,0,0);
+    margin: 0;
+    border-bottom: 1px solid red;
+    max-width: 150px;
+}
+.form-group_room {
+    display: flex;
+    justify-content: center;
+}
+.main-menu-buttons_room {
+    margin-top: 50px;
+}
+.create-room-id {
+    width: 150px;
+    background-color: rgb(176, 78, 221);
+    border-radius: 0 25px 25px 0;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+    padding: 17px;
+}
+.log-message {
+    color: red;
+}
+.loged-chatters__login {
+    cursor: pointer;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgb(172, 11, 172);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.loged-chatters__login:hover {
+    color: white;
+    background-color: rgb(172, 11, 172);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.loged-chatters__login-online {
+    transition: color 0.5s ease;
+    color: rgb(34, 168, 34);
+}
+.loged-chatters__login-online:hover {
+    transition: color 0.5s ease;
+    color: rgb(120, 219, 120);
+}
+.loged-chatters__login:not(:last-child) {
+    margin-bottom: 7px;
+}

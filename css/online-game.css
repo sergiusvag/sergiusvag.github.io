@@ -1,0 +1,46 @@
+.online-score:first-child {
+    margin-bottom: 10px;
+}
+.btn_dis {
+    pointer-events: none;
+}
+.btn_round-dis {
+    pointer-events: none;
+    background-color: rgb(204, 196, 196);
+    box-shadow: none;
+}
+.btn_round {
+    height: auto;
+    width: fit-content;
+    padding: 11px;
+    font-size: 20px;
+    margin-top: 35px;
+}
+
+.buttons-player-again {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+.btn_round-again {
+    margin: 0;
+    background-color: grey;
+    box-shadow: none;
+}
+.btn_round-again:hover {
+    background-color: rgb(20 158 20);
+}
+.btn_round-left {
+    border-radius: 25px 0 0 25px;
+}
+
+.btn_round-right {
+    border-radius: 0 25px 25px 0;
+}
+.btn-round-again-ready {
+    background-color: rgb(20 158 20);
+}
+.btn_round-reset {
+    font-size: 15px;
+    margin: 25px auto 0;
+}
